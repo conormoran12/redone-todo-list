@@ -132,6 +132,4 @@ Navigation.todaysTasksButton.addEventListener("mouseup", () => Navigation.displa
 
 Navigation.addProjectButton.addEventListener("mouseup", () => AddProjectForm.openForm());
 
-console.log("Hello!");
-
 export { Project };
