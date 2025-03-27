@@ -213,7 +213,7 @@ nav {
 }
 
 #project_tab:hover {
-    background: #0998FF;
+    background: #1444EE;
     transition: 0.15s;
 }
 
@@ -389,12 +389,14 @@ nav {
 #task_option_2,
 #task_option_3 {
     filter: none;
+    transition: 0.15s;
 }
 
 #task_option_1:hover,
 #task_option_2:hover,
 #task_option_3:hover {
-    filter: invert(50%) sepia(98%) saturate(7000%) hue-rotate(180deg) brightness(150%);
+    filter: hue-rotate(10deg) brightness(400%) saturate(200%) contrast(80%);
+    transition: 0.15s;
 }
 
 #add_project_modal,
