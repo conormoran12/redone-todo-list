@@ -605,7 +605,7 @@ class AddTaskForm extends Form {
             AddTaskForm.#form.removeEventListener("submit", AddTaskForm.#addTask);
             AddTaskForm.#closeButton.removeEventListener("mouseup", AddTaskForm.toggleForm);
             setTimeout(() => {
-                Form.resetFields(AddTaskForm.#nameField, AddTaskForm.#descriptionField);
+                Form.resetFields(AddTaskForm.#nameField, AddTaskForm.#descriptionField, AddTaskForm.#dueDateField, AddTaskForm.#difficultyField);
                 AddTaskForm.#modal.open = false;
             }, 150);
         }
